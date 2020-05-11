@@ -1,4 +1,4 @@
-package com.blog.exception;
+package com.blog.exceptions;
 
 public class BlogEntityNotFoundException extends RuntimeException {
     public BlogEntityNotFoundException() {

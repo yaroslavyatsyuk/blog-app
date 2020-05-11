@@ -1,20 +1,21 @@
 package com.blog.service;
 
-import com.blog.entity.Post;
+import com.blog.domain.Post;
+import com.blog.web.dto.PostDto;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
 
 public interface PostService {
-    Post findPostByTittle(String title);
+    PostDto findPostByTittle(String title);
 
-    Post save(Post post);
+    PostDto save(PostDto post);
 
-    List<Post> findAll();
+    List<PostDto> findAll();
 
-    Page<Post> findPageOfPosts();
+    Page<PostDto> findPageOfPosts();
 
-    Post delete(String title);
+    PostDto delete(String title);
 
-    Post update(Post post);
+    PostDto update(Post post);
 }

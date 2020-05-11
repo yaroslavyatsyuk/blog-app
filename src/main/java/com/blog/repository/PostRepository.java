@@ -1,11 +1,11 @@
 package com.blog.repository;
 
-import com.blog.entity.Post;
+import com.blog.domain.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import java.util.Optional;
+import java.util.List;
 
 public interface PostRepository extends MongoRepository<Post, String> {
 
-    Optional<Post> findByTitle(String title);
+    List<Post> findByTitle(String title);
 }

@@ -1,6 +1,6 @@
-package com.blog.web.handler;
+package com.blog.web.exception_handler;
 
-import com.blog.exception.BlogEntityNotFoundException;
+import com.blog.exceptions.BlogEntityNotFoundException;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
