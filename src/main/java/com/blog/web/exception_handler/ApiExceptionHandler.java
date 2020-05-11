@@ -1,4 +1,4 @@
-package com.blog.controller.handler;
+package com.blog.web.handler;
 
 import com.blog.exception.BlogEntityNotFoundException;
 import lombok.extern.log4j.Log4j2;
